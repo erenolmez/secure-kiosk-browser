@@ -2,6 +2,8 @@
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+import os
+os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"
 from PyQt5.QtWebEngineWidgets import *
 import sys
 
